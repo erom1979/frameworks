@@ -1,0 +1,55 @@
+body{
+	background-image: url(../img/fondo.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+h1{
+	color: white;
+}
+
+h4{
+	color: white;
+}
+
+.botonbuscar{
+	margin-left: 35%;
+}
+
+.fondo{
+	background-color:rgba(0, 124, 255, 0.35);
+	padding-top: 1%;
+	
+}
+
+.cuadro1{
+	background-color: rgba(132, 0, 255, 0.5) !important;
+	padding: 3%;
+	padding-top: 10%;
+}
+
+.cuadro2{
+	background-color: rgba(252, 128, 219, 0.5) !important;
+	padding: 5%;
+}
+
+.comentario{
+	border: solid 3px rgb(0, 251, 255);
+	border-radius: 5px;
+
+}
+
+.enviar{
+	margin-left: 70%;
+}
+
+@media (max-width: 600px){
+	
+	h1{
+		font-size: 2em;
+	}
+
+	.enviar{
+	margin-left: 50%;
+	}
+}

@@ -1,0 +1,89 @@
+.cuerpo{
+	background-color: grey;
+}
+
+.head{
+	background-color: white;
+	padding: 1%;
+}
+
+.logos{
+	margin-top: 7%;
+}
+
+.navegacion{
+	background-color: orange;
+}
+
+.pag :link{
+	color: red;
+	text-decoration: none;
+}
+
+.pag :visited{
+	color: red;
+	text-decoration: none;
+}
+
+.pag :hover{
+	background-color: brown !important;
+}
+
+.textos{
+	margin-top: 2%;
+	padding: 2%;
+	background-color: white;
+}
+
+.nota2{
+	margin-top: 7%;
+}
+
+.foto{
+	padding-top: 15%;
+}
+
+.busqueda{
+	margin-top: 5%;
+}
+
+.lupa{
+	padding-right: 10%;
+}
+
+@media (max-width: 600px){
+
+	.foto{
+		padding-top: 0%;
+		padding-bottom: 3%;
+	}
+	
+	.comentar{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+	}
+
+	.comentar img{
+		width: 75%;
+		margin-left: 5%;
+		margin-top: 3%;
+	}
+
+	.comentar input{
+		width: 75%;
+		height: 20%;
+		margin-top: 2%;
+		margin-bottom: 2%;
+		margin-left: -10%;
+		margin-right: 5%;
+	}
+
+	.textos{
+		padding: 7%;
+	}
+
+	.busqueda{
+		margin-top: 10%;
+	}
+}

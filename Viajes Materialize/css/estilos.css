@@ -1,0 +1,50 @@
+body{
+	background-image: url(../img/fondo.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.barra{
+	margin-top: 1%;
+}
+
+.sociales{
+	margin-top: 20%;
+	margin-bottom: 20%;
+}
+
+.slogan{
+	margin-top: -2%;
+}
+
+.tarjeta{
+	margin: 5% !important;
+}
+
+.autor{
+	margin-top: 5% !important;
+	padding-top: 1% !important;
+}
+
+.cara{
+	width: 75% !important;
+	padding-top: 3% !important;
+}
+
+
+
+@media (max-width: 600px){
+	.logo{
+		width: 100%;
+	}
+
+	.barrachica{
+		margin-top: -25%;
+	}
+
+	.slogan{
+		margin-top: -25%;
+		margin-left: -10%;
+		font-size: 1em;
+	}
+}
